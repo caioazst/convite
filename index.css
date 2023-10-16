@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+body{
+  background-color: rgb(37, 37, 37);
+  background-image: url('4.png');
+  background-size: 100% 100%; /* Define o tamanho da imagem para 100% de largura e 100% de altura */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Opcional - torna o fundo fixo enquanto a página rola */
+  margin: 0; /* Remove as margens padrão do corpo */
+  padding: 0; /* Remove o preenchimento padrão do corpo */
+  height: 100vh; /* Define a altura do corpo como 100% da altura da janela do navegador */
+  overflow: hidden; /* Opcional - oculta a barra de rolagem vertical se a imagem for maior que a janela */
+}
+
+.icone {
+  background-color: blue;
+  bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 1080px) {
+  /* Estilos para dispositivos móveis pequenos */
+
+
+  .ico{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ico h1, .ico h3{
+    margin: 0;
+    padding: 25px 0;
+  }
+}
