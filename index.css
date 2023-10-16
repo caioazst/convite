@@ -10,7 +10,7 @@ body{
   align-items: center;
   background-color: rgb(37, 37, 37);
   background-image: url('4.png');
-  background-size: cover;  
+  background-size: auto;  
   background-repeat: no-repeat;
   background-attachment: fixed; /* Opcional - torna o fundo fixo enquanto a página rola */
   background-position: center;
