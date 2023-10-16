@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 
 body{
-  background-color: rgb(37, 37, 37);
-  background-image: url('4.png');
-  background-size: 100% 100%; /* Define o tamanho da imagem para 100% de largura e 100% de altura */
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Opcional - torna o fundo fixo enquanto a página rola */
+  height: 100vh; /* Define a altura do corpo como 100% da altura da janela do navegador */
+  width: 100%;
   margin: 0; /* Remove as margens padrão do corpo */
   padding: 0; /* Remove o preenchimento padrão do corpo */
-  height: 100vh; /* Define a altura do corpo como 100% da altura da janela do navegador */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  background-image: url('4.png');
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Opcional - torna o fundo fixo enquanto a página rola */
+  background-position: center;
   overflow: hidden; /* Opcional - oculta a barra de rolagem vertical se a imagem for maior que a janela */
 }
 
